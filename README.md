@@ -1,17 +1,12 @@
 # mdbook-template
 
 - [mdbook-template](#mdbook-template)
-  - [About](#about)
-  - [Getting started](#getting-started)
+  - [Introduction](#introduction)
 
-## About
+## Introduction
 
-Template a mdbook demo with [mdbook-theme](https://github.com/ghost717/mdbook-theme) and a yml file for github action automation and page publication.
+Template a mdBook with [mdbook-theme](https://github.com/ghost717/mdbook-theme) and a yml file for github action automation and gh-page publication.
 
-Clone this repository and create md files in `src/` dir, then add the filenames in `SUMMARY.md`, and everything is ready to go.
+Clone this repository and create `SUMMARY.md` with other md files in `src/` dir, it's everything.
 
-But for the first time after pushing to github, set the source of github page to `gh-pages` branch and `/(root)` in `Settings`.
-
-Have fun with mdbook!
-
-## Getting started
+First time after pushing to github, set the source `branch` and `/(root)` folder to github page, in `Settings -> Pages -> Build and deployment`.
